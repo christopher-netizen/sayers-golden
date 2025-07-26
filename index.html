@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sayers Golden</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="fade-in">
+    <h1 class="slide-down">🐾 Sayers Golden 🐾</h1>
+    <div class="akc-badge fade-in">✅ AKC Certified Breeder</div>
+    <nav class="fade-in">
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#buy">Adopt Now</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="section fade-in">
+    <h2>About Our Puppies</h2>
+    <p>
+      We raise happy, healthy Golden Retriever puppies with lots of love.
+      Each puppy is vaccinated, socialized, and ready for a new home.
+    </p>
+    <p class="akc-text"><strong>✅ All of our puppies are AKC Certified Golden Retrievers.</strong></p>
+  </section>
+
+  <section id="gallery" class="section fade-in">
+    <h2>Our Cute Puppies</h2>
+    <div class="gallery">
+      <img src="puppy1.png" alt="puppy1" class="zoom" />
+      <img src="puppy2.png" alt="puppy2" class="zoom" />
+      <img src="puppy3.png" alt="puppy3" class="zoom" />
+      <img src="puppy4.png" alt="puppy4" class="zoom" />
+    </div>
+  </section>
+
+  <section id="buy" class="section fade-in">
+    <h2>Adopt Your Puppy</h2>
+    <p>
+      Price: <strong>$2,500</strong> per puppy (includes vaccinations & starter kit).
+    </p>
+    <p class="akc-text">✅ AKC Certification paperwork included with every adoption.</p>
+
+    <!-- Countdown Timer -->
+    <div id="countdown" class="countdown">
+      <h3>Expected Delivery In:</h3>
+      <div id="timer">
+        <span id="days">0</span> Days
+        <span id="hours">0</span> Hours
+        <span id="minutes">0</span> Minutes
+        <span id="seconds">0</span> Seconds
+      </div>
+    </div>
+
+    <button id="buyBtn" class="pulse">Adopt Now</button>
+  </section>
+
+  <section id="contact" class="section fade-in">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <!-- Instagram Button -->
+    <div class="social">
+      <a href="https://instagram.com/" target="_blank">
+        <img src="instagram.png" alt="Instagram" />
+      </a>
+    </div>
+  </section>
+
+  <footer class="fade-in">
+    <p>&copy; 2025 Sayers Golden | All Rights Reserved</p>
+  </footer>
+
+  <!-- Fullscreen Image Modal -->
+  <div id="imgModal" class="img-modal">
+    <span id="closeModal">&times;</span>
+    <img class="img-modal-content" id="modalImg" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
